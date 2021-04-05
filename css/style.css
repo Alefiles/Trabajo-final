@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  background-color: whitesmoke; }
+  body header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1vh; }
+    body header .body__header__logo--resize {
+      width: 18vh;
+      height: 10vh; }
+  body main {
+    display: grid;
+    grid-template-rows: 2fr;
+    background-color: whitesmoke;
+    align-items: center; }
+    body main .principal__titulo--animado {
+      animation-duration: 3s;
+      animation-name: bienvenidos; }
+
+@keyframes bienvenidos {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+    body main h1 {
+      color: #3a3838;
+      padding-top: 11vh;
+      text-align: center;
+      font-size: 4em; }
+    body main h2 {
+      color: #3a3838;
+      padding-top: 11vh;
+      text-align: center;
+      font-size: 4em; }
+    body main .banner .normPadding {
+      width: 15%;
+      display: flex;
+      align-items: center;
+      transition: height 2s, width 2s; }
+    body main .noticias {
+      margin: 40px;
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      grid-template-rows: auto;
+      grid-gap: 20px;
+      align-items: stretch; }
+    body main .noticias article {
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); }
+    body main .noticias article img {
+      max-width: 100%;
+      height: auto; }
+    body main .contactanos {
+      padding-top: 10vh;
+      padding-left: 85vh; }
+    body main .white {
+      color: white; }
+    body main .whitesmoke {
+      color: whitesmoke; }
+    body main .black {
+      color: black; }
+    body main .darkblue {
+      color: darkblue; }
+    body main .padding {
+      padding: 20px; }
+    body main .padding {
+      padding: 40px; }
+    body main .padding {
+      padding: 60px; }
+  body footer {
+    margin: 10vh; }
+    body footer .footer__link {
+      color: #3a3838;
+      text-decoration: none;
+      font-size: large;
+      padding-top: 50vh; }
