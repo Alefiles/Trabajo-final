@@ -11,6 +11,9 @@ body {
     justify-content: space-between;
     background-color: white;
     padding: 1vh; }
+    body header .logo {
+      width: 25vh;
+      height: 15vh; }
     body header .body__header__logo--resize {
       width: 18vh;
       height: 10vh; }
