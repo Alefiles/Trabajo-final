@@ -4,56 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros Servicios - Sinergia Verde</title>
+    <title>Nuestros Servicios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="body__header">
-    <img class="body__header__logo--resize" src="imagenes\Logopequeñohd.jpg" alt="LogoSV">
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-            <!--  <a class="navbar-brand" href="#">Navbar</a>-->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Noticias.html">Noticias</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="NuestrosServicios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Nuestros Servicios
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="NuestrosServicios.html">Industria y Comercio</a></li>
-                      <li><a class="dropdown-item" href="NuestrosServicios.html">Rural</a></li>
-                      <li><a class="dropdown-item" href="NuestrosServicios.html">Hogares</a></li>
+    <header class="header">
+        <img class="logo"src="imagenes\Logopequeñohd.jpg"
+             alt="LogoSV">
+ 
+            <!--<nav class="menu">
+                 <ul>
+                     <li id="boton"> <a href=Index.html> Inicio</a></li>
+                     <li id="boton"> <a href=Nosotros.html> Nosotros</a></li>
+                     <li id="boton"> <a href=NuestrosServicios.html> Nuestros Servicios</a></li>
+                     <li id="boton"> <a href=Noticias.html> Noticias</a></li>
+                     <li id="boton"> <a href=Contactanos.html> Contactanos</a></li>
+                 </ul>
+             </nav>--> 
+             <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                <!--  <a class="navbar-brand" href="#">Navbar</a>-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Noticias.html">Noticias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contactanos.html">Contactanos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="NuestrosServicios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nuestros Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="NuestrosServicios.html">Industria y Comercio</a></li>
+                          <li><a class="dropdown-item" href="NuestrosServicios.html">Rural</a></li>
+                          <li><a class="dropdown-item" href="NuestrosServicios.html">Hogares</a></li>
+                        </ul>
+                      </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Contactanos.html">Contactanos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-</header>
-    <main class="principal">  
+                  </div>
+                </div>
+              </nav>
+     </header>
+     <main class="principal">  
         <img  id="Div_img"src="imagenes\renovables.jpg" alt="" width="150">
     <div>
-        <h1 class="principal__titulo--animado">Nuestros Servicios</h1>
+        <h1>Nuestros Servicios</h1>
     </div>
     <br>
+    <!--<section><!--class="servicios">
+        <h1 id="sector">Industria y Comercio</h1>
+        <p>Tenemos la mejor solución para disminuir tus costos energéticos e impulsar tu proyecto sustentable y de RSE.</p>
+        <br>
+        <img id="Div_img"src="imagenes\empresasverde.jpg" alt="Fotoind">
+        <p id="detServ">Podemos ayudarte:</p><br>
+            <ul>
+                 <li>Analizando tu consumo energético y tu potencial de generación utilizando como marco la legislación vigente de autogeneración de energía y/o cogeneración de energía para alcanzar los objetivos propuestos.</li>
+                 <br>
+                 <li>Brindarte la gestión completa de los planes de incentivo que se encuentren vigentes en el momento de realización de tu proyecto de cara a que puedas contar con exenciones impositivas, créditos para financiar la instalación, etc.</li>
+                  <br>
+                 <li>Analizando la eficiencia energética  para no solo disminuir costos sino también como parte de la RSE y, en aquellos casos en que estén interesados en certificar la norma ISO 50001, una auditoría que les sirva para preparar la certificación.</li>
+                  <br>
+                 <li>Brindar capacitaciones a tus colaboradores porque sabemos que no sólo hace falta cambiar la sino también que capacitar a las personas es clave.</li>
+           </ul>
+        
+        <br>
+        <h1 id="sector">Rural</h1>
+        <p>Sabemos la relación estrecha que existe entre el campo y el medio ambiente y lo que el campo significa para vos. Por eso queremos ayudarte a que cada vez esté mejor.</p>
+        <br>
+        <img id="Div_img"src="imagenes\campoverde.jpg" alt="Fotocampo">
+        <p id="detServ">Tenemos para ofrecerte:</p><br>
+            <ul>
+                <li>Cercos eléctricos para ganados alimentados con energía solar,</li>
+            <br>
+                <li>Generadores fotovoltáicos de electricidad para tu vivienda,</li>
+             <br>
+                <li>Sistemas fotovoltáicos para bombas de extracción de agua,</li>
+             <br>
+                <li>Sistemas de generación solar térmica para brindar agua caliente,</li>
+            <br>
+                <li>Charlas de capacitación y concientización del uso eficiente de la energía para tus colaboradores.</li>
+            <br>
+                <li>Asesoramiento integral sobre los planes nacionales de apoyo a las energías renovables, para que puedas llevar adelante tu proyecto sustentable con todos los beneficios disponibles.</li>
+      </ul>
+        
+        <br>        
+        <h1 <h1 class="sector"></h1>>Hogares</h1>
+        <tr>Todas nuestras soluciones se diseñan analizando tu hogar y su consumo;es así como podemos garantizarte que vas a obtener el mejor sistema para vos y tu familia.</tr>
+        <br>
+        <img id="Div_img" src="imagenes\casaverde.jpg" alt="Fotocasa" height="270">
+        <p id="detServ">Te podemos ayudar:</p><br>
+            <ul>
+                 <li>Te asesoramos sobre cuál es la mejor tecnología de energía limpia para tu hogar, lo dimensionamos y te brindamos la solución ideal ajustada a tu presupuesto y expectativas.</li>
+                 <br>
+                 <li>Todos nuestros sistemas de generación de energía fotovoltáica tienen la capacidad de ser modulares esto significa que podés incrementar la velocidad de carga o generación y/o el almacenamiento cuando lo requieras.</li>
+                  <br>
+                 <li>Trabajamos con baterías libres de mantenimiento por lo que no vas a tener que preocuparte por nada.</li>
+                  <br>
+                 <li>Para ahorrar al momento de generar agua caliente para tu hogar te ofrecemos sistemas de termotanques solares y también colectores plásticos para calefaccionar tu piscina.</li>
+                 <br>
+           </ul>
+        
+    </section> -->
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -66,14 +130,14 @@
               <strong>Tenemos la mejor solución para disminuir tus costos energéticos e impulsar tu proyecto sustentable y de RSE.</strong> <img id="Div_img"src="imagenes\empresasverde.jpg" alt="Fotoind">
               <p id="detServ">Podemos ayudarte:</p><br>
                   <ul>
-                      <li class="darkblue">Analizando tu consumo energético y tu potencial de generación utilizando como marco la legislación vigente de autogeneración de energía y/o cogeneración de energía para alcanzar los objetivos propuestos.</li>
-                      <br>
-                      <li class="darkblue">Brindarte la gestión completa de los planes de incentivo que se encuentren vigentes en el momento de realización de tu proyecto de cara a que puedas contar con exenciones impositivas, créditos para financiar la instalación, etc.</li>
+                       <li>Analizando tu consumo energético y tu potencial de generación utilizando como marco la legislación vigente de autogeneración de energía y/o cogeneración de energía para alcanzar los objetivos propuestos.</li>
+                       <br>
+                       <li>Brindarte la gestión completa de los planes de incentivo que se encuentren vigentes en el momento de realización de tu proyecto de cara a que puedas contar con exenciones impositivas, créditos para financiar la instalación, etc.</li>
                         <br>
-                      <li class="darkblue">Analizando la eficiencia energética  para no solo disminuir costos sino también como parte de la RSE y, en aquellos casos en que estén interesados en certificar la norma ISO 50001, una auditoría que les sirva para preparar la certificación.</li>
+                       <li>Analizando la eficiencia energética  para no solo disminuir costos sino también como parte de la RSE y, en aquellos casos en que estén interesados en certificar la norma ISO 50001, una auditoría que les sirva para preparar la certificación.</li>
                         <br>
-                      <li class="darkblue">Brindar capacitaciones a tus colaboradores porque sabemos que no sólo hace falta cambiar la sino también que capacitar a las personas es clave.</li>
-                </ul> 
+                       <li>Brindar capacitaciones a tus colaboradores porque sabemos que no sólo hace falta cambiar la sino también que capacitar a las personas es clave.</li>
+                 </ul> 
             </div>
           </div>
         </div>
@@ -88,17 +152,17 @@
               <strong>Sabemos la relación estrecha que existe entre el campo y el medio ambiente y lo que el campo significa para vos. Por eso queremos ayudarte a que cada vez esté mejor.</strong> <img id="Div_img"src="imagenes\campoverde.jpg" alt="Fotocampo">
               <p id="detServ">Tenemos para ofrecerte:</p><br>
                   <ul>
-                      <li class="darkblue">Cercos eléctricos para ganados alimentados con energía solar,</li>
+                      <li>Cercos eléctricos para ganados alimentados con energía solar,</li>
                   <br>
-                      <li class="darkblue">Generadores fotovoltáicos de electricidad para tu vivienda,</li>
+                      <li>Generadores fotovoltáicos de electricidad para tu vivienda,</li>
+                   <br>
+                      <li>Sistemas fotovoltáicos para bombas de extracción de agua,</li>
+                   <br>
+                      <li>Sistemas de generación solar térmica para brindar agua caliente,</li>
                   <br>
-                      <li class="darkblue">Sistemas fotovoltáicos para bombas de extracción de agua,</li>
+                      <li>Charlas de capacitación y concientización del uso eficiente de la energía para tus colaboradores.</li>
                   <br>
-                      <li class="darkblue">Sistemas de generación solar térmica para brindar agua caliente,</li>
-                  <br>
-                      <li class="darkblue">Charlas de capacitación y concientización del uso eficiente de la energía para tus colaboradores.</li>
-                  <br>
-                      <li class="darkblue">Asesoramiento integral sobre los planes nacionales de apoyo a las energías renovables, para que puedas llevar adelante tu proyecto sustentable con todos los beneficios disponibles.</li>
+                      <li>Asesoramiento integral sobre los planes nacionales de apoyo a las energías renovables, para que puedas llevar adelante tu proyecto sustentable con todos los beneficios disponibles.</li>
             </ul>
             </div>
           </div>
@@ -114,24 +178,27 @@
               <strong>Todas nuestras soluciones se diseñan analizando tu hogar y su consumo;es así como podemos garantizarte que vas a obtener el mejor sistema para vos y tu familia.</strong> <img id="Div_img" src="imagenes\casaverde.jpg" alt="Fotocasa" height="170">
               <p id="detServ">Te podemos ayudar:</p><br>
                   <ul>
-                      <li class="darkblue">Te asesoramos sobre cuál es la mejor tecnología de energía limpia para tu hogar, lo dimensionamos y te brindamos la solución ideal ajustada a tu presupuesto y expectativas.</li>
-                      <br>
-                      <li class="darkblue">Todos nuestros sistemas de generación de energía fotovoltáica tienen la capacidad de ser modulares esto significa que podés incrementar la velocidad de carga o generación y/o el almacenamiento cuando lo requieras.</li>
+                       <li>Te asesoramos sobre cuál es la mejor tecnología de energía limpia para tu hogar, lo dimensionamos y te brindamos la solución ideal ajustada a tu presupuesto y expectativas.</li>
+                       <br>
+                       <li>Todos nuestros sistemas de generación de energía fotovoltáica tienen la capacidad de ser modulares esto significa que podés incrementar la velocidad de carga o generación y/o el almacenamiento cuando lo requieras.</li>
                         <br>
-                      <li class="darkblue">Trabajamos con baterías libres de mantenimiento por lo que no vas a tener que preocuparte por nada.</li>
+                       <li>Trabajamos con baterías libres de mantenimiento por lo que no vas a tener que preocuparte por nada.</li>
                         <br>
-                      <li class="darkblue">Para ahorrar al momento de generar agua caliente para tu hogar te ofrecemos sistemas de termotanques solares y también colectores plásticos para calefaccionar tu piscina.</li>
-                      <br>
-                </ul>
+                       <li>Para ahorrar al momento de generar agua caliente para tu hogar te ofrecemos sistemas de termotanques solares y también colectores plásticos para calefaccionar tu piscina.</li>
+                       <br>
+                 </ul>
             </div>
           </div>
         </div>
       </div>
     <p>Si tenés alguna consulta por favor contactanos.</p>
 
-    <footer class="footer">
-      <a class="footer__link" href=Contactanos.html> Contactanos</a>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <footer>        
+        <nav>
+           
+            <li> <a href=Contactanos.html> Contactanos</a></li>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
