@@ -15,7 +15,7 @@
 <body>
   <!-- logo -->
   <header class="header">
-    <img class="logo"src="imagenes\Logopequeñohd.jpg" alt="LogoSV">
+    <img class="body__header__logo--resize"src="imagenes\Logopequeñohd.jpg" alt="LogoSV">
         <!-- Menú con submenú hecho con código de Bootstrap -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -51,16 +51,46 @@
             </div>
           </nav>
 </header>
-
+<!--Carousel hecho con Bootstrap y modificado SASS-->
     <main class="principal">
-        <div>
-        <h1 class="tituloAnimado">Bienvenidos a </h1> <br>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-
-        <div>
-        <img class="banner" class="anima" src="imagenes\LOGOrec.JPG"
-            alt="bannerppal">
-        </div>    
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/LogoHD.jpg" class="d-block w-100" alt="Logo">
+            <div class="carousel-caption">
+              <h5>Bienvenidos</h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Portada-Energias-renovables.jpg" class="d-block w-100" alt="paneles">
+            <div class="carousel-caption">
+              <h5>Brindamos servicios de calidad</h5>
+              <p>Para encontrar el mejor beneficio energético y económico para vos</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/madre.jpg" class="d-block w-100" alt="madre_e_hijo">
+            <div class="carousel-caption">
+              <h5>Buscando la sustentabilidad</h5>
+              <p>Para mejorar nuestro presente y garantizar un gran futuro</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
     
     <footer class="footer">
