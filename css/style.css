@@ -31,12 +31,6 @@ body {
       animation-duration: 4s;
       animation-iteration-count: 5;
       animation-name: bienvenidos; }
-
-@keyframes bienvenidos {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
     body main .Titulo {
       color: #524f4f;
       animation-duration: 5s;
@@ -45,7 +39,14 @@ body {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 5vh; }
+      margin-top: 5vh;
+      transition: height 4s, width 4s; }
+
+@keyframes bienvenidos {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
     body main section #Servicios {
       text-align: center; }
     body main section .Titulo {
