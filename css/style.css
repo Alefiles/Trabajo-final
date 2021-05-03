@@ -7,10 +7,9 @@
 
 body {
   background-color: whitesmoke;
+  display: grid;
   /* Esto es para todos los header de todas las páginas*/ }
   body header {
-    overflow: hidden;
-    backdrop-filter: blur(6px);
     position: sticky;
     top: 0;
     display: flex;
@@ -18,9 +17,16 @@ body {
     background-color: white;
     padding: 1vh; }
     body header .body__header__logo--resize {
+      position: sticky;
+      top: 0;
       width: 17vh;
       height: 10vh; }
+    body header nav {
+      position: sticky;
+      top: 0; }
   body main {
+    display: block;
+    padding-left: 5vh;
     backdrop-filter: blur(6px); }
     body main #bienvenida {
       text-align: center;
@@ -60,7 +66,7 @@ body {
       justify-content: space-evenly;
       align-items: center; }
       body main section article div .icono {
-        width: 20%;
+        width: 10vh;
         transition: height 1s, width 1s; }
       body main section article div .icono:hover {
         height: 25%;
@@ -118,3 +124,20 @@ body {
   #contactanos .formulario {
     padding-top: 5vh;
     align-self: center; }
+
+@media only screen and (max-width: 1024px) {
+  body .banner {
+    width: 70%; }
+  body .Titulo_ppal {
+    font-size: medium; }
+  body .Titulo {
+    font-size: medium; }
+  body main section article {
+    font-size: small;
+    display: block; }
+    body main section article div h3 {
+      font-size: medium; }
+    body main section article div .icono {
+      width: 5vh; }
+  body main h4 {
+    font-size: small; } }
